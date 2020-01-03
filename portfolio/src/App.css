@@ -1,12 +1,12 @@
 .App {
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-size: 50px;
 }
-
-
-
-
-
-
 
 /* @keyframes App-logo-spin {
   from {
