@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Contact from "./components/Contact/Contact";
 import myImage from "./imageMe.JPG";
-import myVideo from "./Photoeffects_GIF.mov";
+import myVideo from "./vid2.mp4";
 
 import { Spring, Trail, animated } from "react-spring/renderprops";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -34,11 +34,8 @@ class App extends React.Component {
                 </span>
               )}
             </Trail>
-            {/* <p className="fontP"> Hello! I'm Nicholas</p>
-            <p className="fontP2"> Full Stack Web Developer</p> */}
           </div>
         </div>
-        {/* <div className="container"> */}
         <div className="aboutMe">
           <div className="aboutMeContainer" id="about">
             <h2> About Me</h2>
@@ -57,77 +54,73 @@ class App extends React.Component {
             </p>
           </div>
         </div>
-        <div className="projects">
-          <div className="projectsContainer" id="projects">
-            <h2>Projects</h2>
-            <div>
-              <h3>Smith And Jones Architect</h3>
-              
-              <button>
-                {" "}
-                <a
-                  href="https://reyaad510.github.io/User-Interface-Project-Week/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View S&J App
-                </a>
-              </button>
-            </div>
-            <div>
-              <h3>Blackhole</h3>
-              <button>
-                {" "}
-                <a
-                  href="https://blackhole-reactapp.netlify.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View BlackHole App
-                </a>
-              </button>
-            </div>
-            <div>
-              <h3>BucketList</h3>
-              <button>
-                {" "}
-                <a
-                  href="https://bucketlist-builds.netlify.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View BucketList App
-                </a>
-              </button>
-            </div>
-            <div>
-              <h3>PhotoEffects</h3>
-              <iframe
-                className="video"
-                src="https://www.youtube.com/embed/qbuMLcZ5Ofw"
-                display="initial"
-              />
-              <p>
-                The Photo Effects App was created so you could build beautiful
-                and meaningful messages over photos with ease without the
-                complexity of Photoshop and Canva.
-              </p>
-              <button>
-                {" "}
-                <a
-                  href="https://www.photoeffectsapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View PhotoEffects App
-                </a>
-              </button>
-            </div>
+        {/* projects */}
+        <div className="projects" id="projects">
+          <h2>Projects</h2>
+          <div>
+            <h3>Smith And Jones Architect</h3>
+
+            <button>
+              {" "}
+              <a
+                href="https://reyaad510.github.io/User-Interface-Project-Week/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View S&J App
+              </a>
+            </button>
+          </div>
+          <div className="blackhole">
+            <h3>Blackhole</h3>
+            <button>
+              {" "}
+              <a
+                href="https://blackhole-reactapp.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View BlackHole App
+              </a>
+            </button>
+          </div>
+          <div className="bucket">
+            <h3>BucketList</h3>
+            <button>
+              {" "}
+              <a
+                href="https://bucketlist-builds.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View BucketList App
+              </a>
+            </button>
+          </div>
+          <div className="photo">
+            <h3>PhotoEffects</h3>
+            <video loop autoPlay muted>
+              <source src={myVideo} />{" "}
+            </video>
+            <p>
+              The Photo Effects App was created so you could build beautiful and
+              meaningful messages over photos with ease without the complexity
+              of Photoshop and Canva.
+            </p>
+            <button>
+              {" "}
+              <a
+                href="https://www.photoeffectsapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View PhotoEffects App
+              </a>
+            </button>
           </div>
         </div>
         <Contact />
       </div>
-      // </div>
     );
   }
 }

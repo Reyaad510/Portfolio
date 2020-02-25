@@ -1,25 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Aleo&display=swap");
 
+
+
+
 .App {
-  /* border: 1px solid black; */
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center;
-  text-align: center; */
-  /* font-size: 50px; */
   overflow: hidden;
   background-color: #c5ded6;
 }
-
-/* .container {
-  width: 90%;
-  margin: 0 auto;
-  overflow: hidden;
-} */
 
 h2 {
   font-size: 58px;
@@ -28,9 +19,11 @@ h2 {
 }
 
 h3 {
-  font-size: 38px;
+  font-size: 48px;
   font-family: "Aleo";
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -42,7 +35,6 @@ p {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  border: 1px solid red;
   width: 100%;
   height: 100vh;
   margin-top: 64px;
@@ -50,6 +42,7 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: inherit;
+  background-color: #c5ded6;
 }
 
 .fontP {
@@ -63,8 +56,6 @@ p {
 }
 
 .aboutMe {
-  /* height: 100vh; */
-  border: 1px solid black;
   background-color: #fff;
 }
 
@@ -83,23 +74,23 @@ p {
 }
 
 .projects {
-  /* height: 100vh; */
-  border: 1px solid green;
+  /* background-color: #c5ded6; */
 }
 
-.projectsContainer {
-  width: 90%;
-  margin: 0 auto;
-  overflow: hidden;
+.blackhole {
+  background: salmon;
 }
 
-.video {
-  border: none;
-  /* box-shadow: "-2px 1px 3px rgb(40, 5, 145)"; */
-  /* border: "whitesmoke 1px solid"; */
-  border-radius: 3px;
-  width: 600px;
-  height: 350px;
+.bucket {
+  background: #c5ded6;
+}
+
+.photo {
+  background: gray;
+}
+
+video {
+  width: 70%;
 }
 
 button {
