@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Aleo&display=swap");
 
-
-
-
 .App {
   width: 100%;
   margin: 0 auto;
@@ -57,6 +54,7 @@ p {
 
 .aboutMe {
   background-color: #fff;
+  height: 90vh;
 }
 
 .aboutMeContainer {
@@ -79,18 +77,22 @@ p {
 
 .blackhole {
   background: salmon;
+  padding-top: 70px;
 }
 
 .bucket {
   background: #c5ded6;
+  padding-top: 70px;
 }
 
 .photo {
   background: gray;
+  padding-top: 70px;
 }
 
 video {
   width: 70%;
+  padding: 30px 0;
 }
 
 button {
@@ -104,7 +106,7 @@ button {
   margin-top: 8px;
   cursor: pointer;
   transition: ease-in-out 0.25s;
-  margin-bottom: 10px;
+  margin-bottom: 70px;
 }
 
 button:hover {

@@ -28,17 +28,20 @@
 }
 
 .formBox {
-  /* border: 1px solid yellow; */
-  flex: 1;
+  /* flex: 1; */
   border: 1px solid black;
   border-radius: 5px;
   padding: 50px 0px;
+  width: 400px;
+}
+
+.formBox h3 {
+  font-size: 38px;
 }
 
 form {
   font-size: 18px;
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
   /* border: 1px solid green; */
 }
