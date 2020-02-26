@@ -3,7 +3,10 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Contact from "./components/Contact/Contact";
 import myImage from "./imageMe.JPG";
-import myVideo from "./vid2.mp4";
+import peVideo from "./vid2.mp4";
+import sjVideo from "./s&j.mp4";
+import bhVideo from "./blackhole.mp4";
+import bucketVideo from "./bucketlist.mp4";
 
 import { Spring, Trail, animated } from "react-spring/renderprops";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -59,6 +62,13 @@ class App extends React.Component {
           <h2>Projects</h2>
           <div>
             <h3>Smith And Jones Architect</h3>
+            <video loop autoPlay muted>
+              <source src={sjVideo} />{" "}
+            </video>
+            <p>
+              S&J Architect is a static website made to show that I am able to
+              create a website after being given a design from product manager.
+            </p>
 
             <button>
               {" "}
@@ -73,6 +83,15 @@ class App extends React.Component {
           </div>
           <div className="blackhole">
             <h3>Blackhole</h3>
+            <video loop autoPlay muted>
+              <source src={bhVideo} />{" "}
+            </video>
+            <p>
+              Sometimes, you just need to vent to get it out, move on, and feel
+              better. Enter black hole. Blackhole is a reverse note taking app.
+              Type away your frustrations and watch it get sucked into the
+              blackhole!
+            </p>
             <button>
               {" "}
               <a
@@ -86,6 +105,13 @@ class App extends React.Component {
           </div>
           <div className="bucket">
             <h3>BucketList</h3>
+            <video loop autoPlay muted>
+              <source src={bucketVideo} />{" "}
+            </video>
+            <p>
+              Welcome to the BucketList. A simple app that allows a user to
+              create bucket list cards.
+            </p>
             <button>
               {" "}
               <a
@@ -100,7 +126,7 @@ class App extends React.Component {
           <div className="photo">
             <h3>PhotoEffects</h3>
             <video loop autoPlay muted>
-              <source src={myVideo} />{" "}
+              <source src={peVideo} />{" "}
             </video>
             <p>
               The Photo Effects App was created so you could build beautiful and
