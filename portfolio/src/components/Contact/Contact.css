@@ -77,7 +77,7 @@ input {
 
 /* MEDIA QUERY MOBILE */
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .iconBox {
     display: none;
   }
