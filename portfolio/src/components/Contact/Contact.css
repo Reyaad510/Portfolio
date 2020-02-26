@@ -74,3 +74,11 @@ input {
   transform: scale(1.1);
   transition: ease-in-out 0.25s;
 }
+
+/* MEDIA QUERY MOBILE */
+
+@media (max-width: 500px) {
+  .iconBox {
+    display: none;
+  }
+}
