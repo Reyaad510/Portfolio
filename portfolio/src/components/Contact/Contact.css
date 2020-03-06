@@ -103,4 +103,9 @@ textarea {
   .iconBox {
     width: 90%;
   }
+
+  input,
+  textarea {
+    width: 80%;
+  }
 }

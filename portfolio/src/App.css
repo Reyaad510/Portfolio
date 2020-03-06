@@ -25,6 +25,7 @@ h3 {
 
 p {
   font-family: "Aleo";
+  font-size: 20px;
 }
 
 .imgBox {
@@ -130,5 +131,9 @@ a {
 @media (max-width: 700px) {
   video {
     width: 90%;
+  }
+
+  .aboutMe p {
+    font-size: 16px;
   }
 }

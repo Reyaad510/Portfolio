@@ -31,5 +31,13 @@ nav ul {
 }
 
 nav ul .navLink {
+  transition: ease-in-out 0.25s;
   cursor: pointer;
 }
+
+.navLink:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.25s;
+}
+
+
