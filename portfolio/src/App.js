@@ -63,7 +63,7 @@ class App extends React.Component {
         {/* projects */}
         <div className="projects" id="projects">
           <h2>Projects</h2>
-          <div>
+          <div className="sj">
             <h3>Smith And Jones Architect</h3>
             <video loop autoPlay muted>
               <source src={sjVideo} />{" "}

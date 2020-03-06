@@ -6,7 +6,13 @@
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
-  background-color: #c5ded6;
+  /* background-color: #c5ded6; */
+  background: rgb(236, 236, 236);
+  background: linear-gradient(
+    0deg,
+    rgba(236, 236, 236, 1) 0%,
+    rgba(221, 221, 221, 1) 100%
+  );
 }
 
 h2 {
@@ -72,22 +78,41 @@ p {
   width: 200px;
 }
 
-.projects {
-  /* background-color: #c5ded6; */
-}
-
 .blackhole {
-  background: salmon;
+  /* background: rgb(25, 1, 84);
+  background: linear-gradient(
+    0deg,
+    rgba(25, 1, 84, 1) 0%,
+    rgba(161, 59, 0, 1) 100%
+  ); */
+  background: rgb(153, 97, 97);
+  background: linear-gradient(
+    0deg,
+    rgba(153, 97, 97, 1) 0%,
+    rgba(255, 107, 66, 1) 100%
+  );
+  color: white;
   padding-top: 70px;
 }
 
 .bucket {
-  background: #c5ded6;
+  background: rgb(130, 244, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(130, 244, 255, 1) 0%,
+    rgba(225, 157, 255, 1) 100%
+  );
+
   padding-top: 70px;
 }
 
 .photo {
-  background: gray;
+  background: rgb(190, 250, 252);
+  background: linear-gradient(
+    0deg,
+    rgba(190, 250, 252, 1) 0%,
+    rgba(255, 255, 198, 1) 100%
+  );
   padding-top: 70px;
 }
 
