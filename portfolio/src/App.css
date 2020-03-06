@@ -100,7 +100,7 @@ video {
   margin: 0 auto;
 }
 
-button {
+.project-button {
   background: none;
   border: 1px solid black;
   font-size: 20px;
@@ -115,7 +115,7 @@ button {
   margin-bottom: 70px;
 }
 
-button:hover {
+.project-button:hover {
   transform: scale(1.1);
   transition: ease-in-out 0.25s;
 }

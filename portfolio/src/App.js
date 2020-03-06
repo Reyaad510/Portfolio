@@ -10,10 +10,14 @@ import bucketVideo from "./bucketlist.mp4";
 
 import { Spring, Trail, animated } from "react-spring/renderprops";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import {
+  fab,
+  faLinkedinIn,
+  faGithub
+} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faEnvelopeOpen);
+library.add(fab, faEnvelopeOpen, faLinkedinIn);
 
 const items = ["H", "e", "l", "l", "o", "!"];
 
@@ -72,7 +76,7 @@ class App extends React.Component {
               </p>
             </div>
 
-            <button>
+            <button className="project-button">
               {" "}
               <a
                 href="https://reyaad510.github.io/User-Interface-Project-Week/index.html"
@@ -96,7 +100,7 @@ class App extends React.Component {
                 into the blackhole!
               </p>
             </div>
-            <button>
+            <button className="project-button">
               {" "}
               <a
                 href="https://blackhole-reactapp.netlify.com/"
@@ -118,7 +122,7 @@ class App extends React.Component {
                 create bucket list cards.
               </p>
             </div>
-            <button>
+            <button className="project-button">
               {" "}
               <a
                 href="https://bucketlist-builds.netlify.com/"
@@ -141,7 +145,7 @@ class App extends React.Component {
                 complexity of Photoshop and Canva.
               </p>
             </div>
-            <button>
+            <button className="project-button">
               {" "}
               <a
                 href="https://www.photoeffectsapp.com/"
