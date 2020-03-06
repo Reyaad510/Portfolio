@@ -18,36 +18,6 @@ class Contact extends React.Component {
         <div className="contactPageContainer" id="contact">
           <h2>Contact</h2>
           <div className="flexContact">
-            <div className="iconBox">
-              {/* <FontAwesomeIcon
-                icon="envelope-open"
-                size="10x"
-                className="colorIcon"
-              /> */}
-              <a
-                href="https://www.linkedin.com/in/nicholasrafeek/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={["fab", "linkedin-in"]}
-                  size="7x"
-                  className="icon-effect"
-                />
-              </a>
-
-              <a
-                href="https://github.com/Reyaad510"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={["fab", "github"]}
-                  size="7x"
-                  className="icon-space icon-effect"
-                />
-              </a>
-            </div>
             <div className="formBox">
               <h3>Let's get in touch...</h3>
               <form
@@ -80,6 +50,37 @@ class Contact extends React.Component {
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
               </form>
             </div>
+            <div className="iconBox">
+              {/* <FontAwesomeIcon
+                icon="envelope-open"
+                size="10x"
+                className="colorIcon"
+              /> */}
+              <a
+                href="https://www.linkedin.com/in/nicholasrafeek/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={["fab", "linkedin-in"]}
+                  size="7x"
+                  className="icon-effect"
+                />
+              </a>
+
+              <a
+                href="https://github.com/Reyaad510"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={["fab", "github"]}
+                  size="7x"
+                  className="icon-space icon-effect"
+                />
+              </a>
+            </div>
+            
           </div>
         </div>
       </div>

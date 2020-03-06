@@ -1,5 +1,5 @@
 .contactPage {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #fff;
 }
 
@@ -10,21 +10,23 @@
 }
 
 .flexContact {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .iconBox {
-  /* border: 1px solid red; */
-  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+  width: 500px;
 }
 
-.colorIcon {
+/* .colorIcon {
   color: #ff717e;
   opacity: 30%;
-}
+} */
 
 .icon-space {
   /* border: 1px solid red; */
@@ -50,7 +52,7 @@
   border: 1px solid black;
   border-radius: 5px;
   padding: 40px 0px;
-  width: 450px;
+  width: 500px;
 }
 
 .formBox h3 {
@@ -66,7 +68,7 @@ form {
 
 input,
 textarea {
-  width: 300px;
+  width: 400px;
   font-size: 16px;
   border-radius: 8px;
   margin: 10px;
@@ -97,7 +99,8 @@ textarea {
 /* MEDIA QUERY MOBILE */
 
 @media (max-width: 700px) {
+  .formBox,
   .iconBox {
-    display: none;
+    width: 90%;
   }
 }
