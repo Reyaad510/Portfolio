@@ -128,17 +128,24 @@ video {
 
 .project-button {
   background: none;
-  border: 1px solid black;
+  border: none;
   font-size: 20px;
   color: black;
   border-radius: 5px;
   align-self: center;
-  padding: 8px;
+  padding: 16px 0px;
   margin-top: 8px;
   cursor: pointer;
   transition: ease-in-out 0.25s;
   margin-top: 20px;
   margin-bottom: 70px;
+}
+
+.project-button a {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 17px;
+  width: 100%;
 }
 
 .project-button:hover {
